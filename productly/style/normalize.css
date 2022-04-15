@@ -1,0 +1,184 @@
+body{
+  width: 100%;
+	min-height: 100vh; 
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 35px;
+  flex-wrap: wrap;
+}
+.link {
+  padding-right: 20px;   
+}
+nav {
+  padding-top: 10px;
+  display: flex;
+      
+}
+span {
+  display: flex;
+  margin-left: 10.5%;
+  padding-right: 320px;
+}
+span h2{
+  padding-left: 11px;
+}
+button {
+  display: flex ;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+}
+.navigation_links {
+  display: flex;   
+}
+.navigation__link:last-of-type {
+	margin-right: 0;
+}
+.width> h1{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.people {
+  padding-right: 35px;
+}
+.width>p{
+  height: 95px;
+  margin-left:10.5%;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin-left: 10%;
+}
+.video{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 3%;
+  flex-direction:row; 
+}
+.watch {
+  padding-left: 10px;   
+}
+.triangle2{
+  margin-top: 3px;
+}
+.width {
+  min-width: 500px;
+  padding-left: 9%;
+}
+.feature h2{
+  margin-top: 10%;
+  text-align: center;
+}
+.tool{
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+.container3{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 54px;
+}
+.feature>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
+}
+footer{
+  margin-top: 10%;
+}
+footer span{
+  margin-left: 10%;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35%;
+  margin-right: 10%;
+  list-style: none;
+}
+.third{
+  justify-content: left;
+}
+.field {
+  padding: 15px 50px;
+  margin-top: 15px!important;
+  margin-left: 6.8%;
+}
+.third>button{
+  height: 53px;
+  width: 175px;
+  border-radius: 4px;
+  margin-top: 7%;
+}
+.effortless{
+  padding-top: 236px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.width_{
+  min-width: 500px;
+  margin-left: 9%;
+}
+.circle{
+  width: 520px;
+  height: 574px;
+  margin-right: 9%;
+  margin-left: 9%;
+}
+.product{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 236px;
+  margin-right: 9%;
+  margin-left:9%;
+}
+
+.check_mark{
+  display: flex;
+}
+.check_mark>div{
+  width:35px;
+  height:35px;
+  padding-right: 30px;
+  margin-top: 17px;
+}
+.square{
+  width: 535px;
+  height: 521px;
+}
+.tria{
+  width: 542px;
+  height: 609px;
+}
+.triangle1{
+  margin-right: 2%;
+  margin-left: 4%;
+}
