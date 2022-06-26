@@ -1,0 +1,31 @@
+.logo{
+  padding-top: 23px;
+}
+aside{
+  padding-top: 22px;
+  display: flex;
+  gap:10px;
+}
+
+.menu{
+position: relative;
+z-index: 50;
+}
+
+.products{
+  background-color: white;
+  margin-top: -50px;
+  text-align: center;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contacts{
+  margin-top: -50px;
+}
+.logowhite{
+  padding-left: 5%;
+}
