@@ -1,0 +1,28 @@
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.grid-architecture {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+  padding-bottom: 120px;
+}
+.grid-photography{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+  padding-bottom: 120px;
+}
+.grid-portrait{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+  padding-bottom: 120px;
+}

@@ -1,0 +1,17 @@
+.text{
+  font-family: 'Delius';
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+.author{
+  font-family: 'Roboto';
+  &__name{
+    font-weight: 500;
+    color: white;
+  }
+  &__date{
+    font-weight: 400;
+    color: #E0E0E0;
+  }
+}
