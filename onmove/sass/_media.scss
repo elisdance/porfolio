@@ -1,0 +1,143 @@
+@media only screen and (max-width: 480px) {
+  .menu__list {
+    position:fixed;
+    left: -100%;
+    top: 4rem;
+    flex-direction: column;
+    background-color:$brown-light;
+    width: 100%;
+    text-align: center;
+    transition: 0.9s;
+  }
+
+  .menu__list.active {
+    left: 0;
+  }
+  .menu__link:focus{
+    background-color: transparent;
+    color: black;
+  }
+  .menu__item {
+    margin: 1.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  aside{
+    padding-left: 5%;
+    order: 2; 
+  }
+
+  nav{ 
+    padding-top:25px;
+    order: 3;
+    padding-left: 5%;
+  }
+
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media screen and (max-width: 480px){
+  .button--red{
+    width:154px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .content{
+    margin-left: 20%;
+    padding-top: 40%;
+    margin-right: 5%;
+    &__h1{
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+  .slider{
+    max-width: 520px;
+    max-height: 560px;
+  }
+  .card {
+    width: 299px;
+    height: 469px;
+  }
+  .button--white{
+    width: 154px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .image{
+    margin: auto;
+  }
+  .text{
+    font-size: 20px;
+    padding-bottom: 0;
+    padding-top: 30px;
+    line-height: 24px;
+    margin-left: 10px;
+  }
+  .app{
+    width:30px;
+    height: 30px;
+    margin-bottom: -30px;
+  }
+  .contacts{
+    display: block;
+    gap: 10px;
+    padding-top: 25px;
+  }
+  .logowhite{
+    text-align: center;
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .sliderGuitar{
+    max-width: 704px;
+    max-height:439px
+  }
+  .image{
+    width: 180px;
+    height: 250px;
+    margin: auto;
+  }
+  .card{
+      width: 224px;
+      height: 417px;
+      text-align: center;
+    &--name{
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &--price{
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+  .in{
+    font-size: 10px;
+  }
+  .out{
+    font-size: 10px;
+  }
+  .partner{
+    width: 100px;
+  }
+  .content{
+    &__h1{
+      font-size: 26px;
+    }
+  }
+}
+
